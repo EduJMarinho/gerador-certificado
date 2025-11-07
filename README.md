@@ -64,6 +64,10 @@ Utiliza Karma e Jasmine para testes unitários.
 - angular.json — configurações de build e serve
 - package.json — scripts e dependências
 
+🔄  Deploy com netlife.com
+```
+  https://steady-gecko-e8d84e.netlify.app/
+```
 ⚙️ Configuração
 Caso o projeto utilize variáveis de ambiente, crie um arquivo .env ou configure diretamente no app.config.ts.
 
