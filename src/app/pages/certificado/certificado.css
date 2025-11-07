@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.menu-certificado {
+  max-width: 50rem;
+}
+
+.btn-voltar {
+  gap: .375rem;
+  cursor: pointer;
+}
+
+.btn-voltar p {
+  font-weight: 600;
+  font-size: .875rem;
+  line-height: 1.25rem;
+  letter-spacing: 0;
+  vertical-align: middle;
+  color: #64748b;
+}
+
+.btn-voltar i {
+  font-size: 1.25rem;
+  color: #64748b;
+}
+
+.certificado {
+  margin-top: 2rem;
+  background-image: url('../../../../public/certificate/certificate_bg.png');
+  width: 50rem;
+  height: 34.37rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: .75rem;
+  position: relative;
+}
+
+.conteudo-certificado {
+  width: 45rem;
+  height: 29.37rem;
+  background-color: white;
+  border-radius: .5rem;
+  position: relative;
+}
+
+.conteudo-certificado p {
+  margin: 0;
+}
+
+.icone-medalha {
+  z-index: 1;
+  position: absolute;
+  top: .75rem;
+  left: .75rem;
+}
+
+.info-certificado {
+  margin: 4rem 2.5rem 3rem 2.5rem;
+  gap: 1.25rem;
+}
+
+.titulo-subtitulo-certificado h1 {
+  text-align: center;
+  font-weight: 900;
+  font-size: 1.5rem;
+  line-height: 160%;
+  letter-spacing: 2.6px;
+  color: #1a2856;
+}
+
+.titulo-subtitulo-certificado p {
+  font-weight: 400;
+  font-size: .75rem;
+  line-height: 160%;
+  letter-spacing: 0;
+  text-align: center;
+  margin: 0;
+  color: #121621;
+}
+
+.nome-aluno {
+  font-family: "Dancing Script";
+  font-weight: 700;
+  font-size: 3.25rem;
+  line-height: 5rem;
+  letter-spacing: 0;
+  text-align: center;
+  color: #3b5ac2;
+}
+
+.lista-atividade {
+  width: 25.85rem;
+}
+
+.lista-atividade-titulo {
+  font-weight: 400;
+  font-size: .75rem;
+  line-height: 160%;
+  letter-spacing: 0;
+  text-align: center;
+  color: #121621;
+  margin-bottom: .5rem !important;
+}
+
+.lista-atividade {
+  font-weight: 400;
+  font-size: .875rem;
+  line-height: 160%;
+  letter-spacing: 0;
+  text-align: center;
+  color: #121621;
+}
+
+.data-emissao {
+  color: #121621;
+  font-weight: 700;
+  font-size: .7rem;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.img-assinatura {
+  position: absolute;
+  right: 2.5rem;
+  bottom: 1.5rem;
+  width: 4rem;
+  height: 4rem;
+}

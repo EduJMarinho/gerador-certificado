@@ -1,59 +1,79 @@
-# GeradorCertificado
+## 👤  By Dev Eduardo Marinho
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.6.
 
-## Development server
 
-To start a local development server, run:
+# 🎓 Gerador de Certificados
+
+Aplicação web desenvolvida com Angular para gerar certificados personalizados de forma prática e rápida. Ideal para eventos, cursos, workshops ou qualquer situação que exija emissão de certificados digitais.
+
+---
+
+## 🚀 Tecnologias Utilizadas
+
+- [Angular 20](https://angular.io/)
+- [Bootstrap 5](https://getbootstrap.com/)
+- [html2canvas](https://html2canvas.hertzen.com/) — captura da tela para gerar imagens dos certificados
+- [uuid](https://www.npmjs.com/package/uuid) — geração de identificadores únicos
+- [RxJS](https://rxjs.dev/) — programação reativa
+
+---
+
+## 📦 Instalação
 
 ```bash
+# Clone o repositório
+git clone https://github.com/seu-usuario/gerador-certificado.git
+cd gerador-certificado
+
+# Instale as dependências
+npm install
+
+
+
+🖥️ Executando o projeto
+# Ambiente de desenvolvimento
 ng serve
-```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
+# Build para produção
 ng build
-```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
 
-## Running unit tests
+A aplicação será servida em http://localhost:4200.
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+🧪 Testes
+npm test
 
-```bash
-ng test
-```
 
-## Running end-to-end tests
+Utiliza Karma e Jasmine para testes unitários.
 
-For end-to-end (e2e) testing, run:
+🖼️ Funcionalidades
+- Interface responsiva com Bootstrap
+- Geração de certificados com dados personalizados
+- Captura da tela do certificado via html2canvas
+- Exportação em imagem
+- Identificação única por uuid
+- Salvamento em arquivo de imagem .png
+- impressão do certificado
 
-```bash
-ng e2e
-```
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+📁 Estrutura do Projeto
+- src/app/ — componentes e lógica principal
+- src/styles.css — estilos customizados
+- public/ — ativos utilizados nos certificados
+- angular.json — configurações de build e serve
+- package.json — scripts e dependências
 
-## Additional Resources
+⚙️ Configuração
+Caso o projeto utilize variáveis de ambiente, crie um arquivo .env ou configure diretamente no app.config.ts.
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+📄 Licença
+Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+
+---
+
+##
+--🧠 Analisar 📚 Aprender ❌ Errar  
+    🔁 Refatorar  🛠️ Construir  
+            → → → → → → →  
+→ Esse é o caminho do Dev. — Edu Marinho
+
