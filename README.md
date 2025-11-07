@@ -24,6 +24,7 @@ Aplicação web desenvolvida com Angular para gerar certificados personalizados 
 # Clone o repositório
 git clone https://github.com/seu-usuario/gerador-certificado.git
 cd gerador-certificado
+```
 
 # Instale as dependências
 npm install
